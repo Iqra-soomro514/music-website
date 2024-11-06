@@ -1,18 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
 
 * {
-    font-family: "Playfair Display", serif;
+    font-family: "Roboto", sans-serif;
 }
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
 }
+
 .card {
     border: 2px solid #f33b3b;
     border-radius: 8px;
 }
+
 .card img {
     width: 70%;
     height: auto;
@@ -21,18 +25,23 @@ body {
     padding-top: 15px;
     border-radius: 20px;
 }
+
 .card img:hover {
     transform: translateY(-10px);
 }
+
 h1 {
     margin-bottom: 30px;
 }
+
 .song-item {
     transition: transform 0.3s;
 }
+
 .song-item:hover {
     transform: translateY(-10px);
 }
+
 .song-item img {
     height: 80px;
 }
@@ -41,50 +50,61 @@ h1 {
     font-weight: bold;
     font-size: 18px;
 }
+
 .song-description {
     margin-top: 5px;
     font-size: 13px;
     color: #555;
 }
+
 .album-cards img {
     height: 370px;
     object-fit: cover;
     padding: 39px;
     border-radius: 70px;
 }
+
 .album-cards img:hover {
     transform: translateY(-10px);
     transition: transform 0.3s;
 }
+
 h2 {
     font-weight: bold;
 }
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: black;
 }
+
 @media (max-width: 768px) {
     .album-carousel img {
-        margin-right: 20px; 
+        margin-right: 20px;
     }
 }
+
 @media (max-width: 576px) {
     .album-carousel img {
-        margin-right: 20px; 
+        margin-right: 20px;
     }
 }
+
 .song-img {
     width: 50px;
     height: 50px;
     object-fit: cover;
     border-radius: 5px;
 }
+
 .song-info {
     flex-grow: 1;
 }
+
 .song-title {
     font-weight: bold;
 }
+
 .quick-picks {
     padding: 20px;
 }
